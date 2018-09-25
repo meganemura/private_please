@@ -4,6 +4,8 @@ rvm:
   - 2.1
   - 2.2.4
   - 2.3.0
+  - 2.4.4
+  - 2.5.1
   - ruby-head
 
 script: bundle exec rspec --format documentation  --tag ~fails_on_ci --seed 2222
